@@ -1,0 +1,6 @@
+<b>oh hi</b>
+<%= form_with url: "/spongebob_case/result", method: :post do |form| %>
+    <%= form.label :query, "Text to spongify" %>
+    <%= form.text_field :query %>
+    <%= form.submit "submit" %>
+<% end %>
